@@ -5,3 +5,10 @@
   clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0 100%, 0 0, 50% 5vh);
   margin-top: -5vh;
 }
+
+.about-text {
+  color: $color-grey-light;
+  padding: 2rem 0;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
