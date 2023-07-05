@@ -1,0 +1,12 @@
+.btn {
+  padding: 0.8rem 1.4rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: inline-block;
+
+  &--solid {
+    background-color: $color-pink;
+    color: $color-white;
+  }
+}
