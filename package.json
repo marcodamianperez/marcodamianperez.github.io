@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/sass/main.scss src/css/styles.css"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Marco Pérez",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.6"
+  }
+}
