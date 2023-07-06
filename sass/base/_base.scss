@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: $color-grey-dark;
+}
+
 a,
 a:link,
 a:visited {

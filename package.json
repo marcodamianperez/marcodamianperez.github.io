@@ -4,8 +4,7 @@
   "description": "portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "sass src/sass/main.scss src/css/styles.css --watch",
-    "deploy": "gh-pages -d dist"
+    "sass": "sass ./sass/main.scss ./css/styles.css --watch"
   },
   "keywords": [
     "portfolio"
@@ -13,7 +12,6 @@
   "author": "Marco Pérez",
   "license": "ISC",
   "devDependencies": {
-    "gh-pages": "^5.0.0",
     "sass": "^1.63.6"
   }
 }
