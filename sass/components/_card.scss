@@ -1,9 +1,25 @@
 .card {
   position: relative;
+  overflow: hidden;
+
+  &:hover .card__info {
+    display: flex;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+
+  &:hover .card__image {
+    filter: blur(1px) brightness(0.4);
+    scale: 1.05;
+  }
 
   &__image {
-    overflow: hidden;
+    transition: all 0.3s ease-in-out;
     filter: blur(1px) brightness(0.4);
+
+    @include respond(large) {
+      filter: blur(0) brightness(1);
+    }
 
     img {
       width: 100%;
@@ -21,7 +37,17 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+
+    @include respond(large) {
+      transform: translate(-50%, -80%);
+      opacity: 0;
+    }
   }
 
   &__name {

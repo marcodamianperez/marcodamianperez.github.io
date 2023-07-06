@@ -4,6 +4,11 @@
   padding: 10rem 0;
   clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0 100%, 0 0, 50% 5vh);
   margin-top: -5vh;
+
+  @include respond(large) {
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0 100%, 0 0, 50% 10vh);
+    margin-top: -10vh;
+  }
 }
 
 .title__secondary {
@@ -15,4 +20,8 @@
   padding: 3rem 0;
   display: grid;
   gap: 2rem;
+
+  @include respond(small) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

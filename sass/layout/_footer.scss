@@ -5,6 +5,11 @@
   padding-bottom: 5rem;
   clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0 100%, 0 0, 50% 5vh);
   margin-top: -5vh;
+
+  @include respond(large) {
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0 100%, 0 0, 50% 10vh);
+    margin-top: -10vh;
+  }
 }
 
 .social-links {
@@ -17,6 +22,17 @@
 
   a {
     color: inherit;
+    transition: color 0.2s ease-in-out;
+
+    @include respond(large) {
+      &:hover {
+        color: $color-pink;
+      }
+    }
+  }
+
+  @include respond(large) {
+    gap: 4rem;
   }
 }
 
