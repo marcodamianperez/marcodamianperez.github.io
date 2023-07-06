@@ -125,6 +125,32 @@ body {
   line-height: 1.5;
 }
 
+.footer {
+  background-color: #2b303b;
+  margin-top: -10%;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0 100%, 0 0, 50% 5vh);
+  margin-top: -5vh;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-size: 2.5rem;
+  color: #fafafa;
+}
+
+.author {
+  font-size: 1.2rem;
+  color: #fafafa;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 4rem;
+}
+
 .header {
   background-color: #16191d;
 }
@@ -148,7 +174,7 @@ body {
 }
 .navbar__link {
   color: inherit;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .text-box {
