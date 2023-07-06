@@ -146,6 +146,9 @@ body {
   font-size: 2.5rem;
   color: #fafafa;
 }
+.social-links a {
+  color: inherit;
+}
 
 .author {
   font-size: 1.2rem;
