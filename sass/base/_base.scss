@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: $color-pink;
+  color: $color-grey-dark;
+}
+
+::-moz-selection {
+  background-color: $color-pink;
+  color: $color-grey-dark;
+}
+
 body {
   background-color: $color-grey-dark;
 }
